@@ -1,0 +1,37 @@
+{
+  "name": "read-model",
+  "version": "1.0.0",
+  "description": "Fast faceted-search using Redis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/gulp/bin/gulp.js test",
+    "integration-test": "node node_modules/gulp/bin/gulp.js integration-test",
+    "benchmark": "node test/benchmark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d5172/read-model-node.git"
+  },
+  "author": "David Martines",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/d5172/read-model-node/issues"
+  },
+  "homepage": "https://github.com/d5172/read-model-node#readme",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "lodash": "^3.10.1",
+    "redis": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "minimist": "^1.2.0",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
+}
